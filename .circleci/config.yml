@@ -59,6 +59,7 @@ jobs:
       - run: yarn run dev
       # prepare the database
       - run: cp .env.circleci .env
+      - run: php artisan key:generate
       - run: php artisan migrate --env=testing --force
       - run:
           name: "Run tests"
