@@ -83,6 +83,9 @@
                 <div class="title m-b-md">
                     Welcome to Haposoft Laravel Development Team
                 </div>
+                <div class="m-b-md">
+                    Test auto deployment
+                </div>
 
                 <div class="links">
                     <a href="https://laravel.com/docs">Docs</a>
