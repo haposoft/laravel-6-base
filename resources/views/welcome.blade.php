@@ -84,7 +84,7 @@
                     Welcome to Haposoft Laravel Development Team
                 </div>
                 <div class="m-b-md">
-                    Test auto deployment
+                    Test auto deployment - CircleCI
                 </div>
 
                 <div class="links">
