@@ -94,7 +94,7 @@ jobs:
             - v1-dependencies-
 
       - run: composer install -n --prefer-dist
-      - run: php vendor/bin/dep deploy -n
+      - run: php vendor/bin/dep deploy -n --yes
 
 workflows:
   version: 2

@@ -23,7 +23,7 @@ add('writable_dirs', []);
 // Hosts
 host('103.107.182.61')
     ->user('deployer')
-    // ->identityFile('~/.ssh/deployerkey')
+    ->identityFile('deployerkey')
     ->set('branch', 'develop')
     ->set('deploy_path', '/var/www/html/laravel-app');    
     
