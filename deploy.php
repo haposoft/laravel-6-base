@@ -21,7 +21,7 @@ add('writable_dirs', []);
 
 
 // Hosts
-host('103.107.182.61')
+host('xxx.xxx.xxx.xxx')
     ->user('deployer')
     // ->identityFile('deployerkey')
     ->addSshOption('UserKnownHostsFile', '/dev/null')
