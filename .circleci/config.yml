@@ -85,7 +85,7 @@ jobs:
       - run: sudo docker-php-ext-install pdo_mysql zip gd
       - add_ssh_keys:
           fingerprints:
-            - "c9:30:98:49:b6:6a:76:ea:03:87:6e:4b:01:2b:d5:58"
+            - "add-your-fingerprints"
       - restore_cache:
           keys:
             # "composer.lock" can be used if it is committed to the repo
